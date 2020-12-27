@@ -2,7 +2,7 @@
 FROM node:alpine
 
 #install dependancies
-WORKDIR /usr/loginapp
+WORKDIR /usr/app-login
 COPY ./package.json ./
 RUN npm install
 COPY ./ ./
