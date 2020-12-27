@@ -19,7 +19,8 @@ deploy:
     region: ap-south-1
     app: app-login
     env: AppLogin-env
-    bucket_name: elasticbeanstalk-ap-south-1-679022722124
+    bucket_name: elasticbeanstalk-ap-south-1-924907772969
+
     bucket_path: login-app
     on:
         branch: master
